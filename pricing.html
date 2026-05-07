@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>料金プラン | GBase Support</title>
+    <meta name="description" content="GBase Support の料金プラン。自社データを学習する AI カスタマーサポート。組織規模・利用範囲に応じた最適な構成をご提案します。">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="料金プラン | GBase Support">
+    <meta property="og:description" content="自社データで応答モデルを構築する AI カスタマーサポート。規模に応じた柔軟なプラン体系。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cs.gbase.ai/price">
+    <link rel="canonical" href="https://cs.gbase.ai/price">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "GBase Support",
+      "description": "自社データを学習してウェブサイト・社内向けに高精度な AI カスタマーサポートを構築するチャットボットプラットフォーム。",
+      "brand": { "@type": "Brand", "name": "Sparticle" },
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "JPY",
+                "availability": "https://schema.org/InStock"
+      }
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --brand: #8B5CF6;
+            --brand-deep: #7C3AED;
+            --brand-darker: #6D28D9;
+            --brand-soft: rgba(139, 92, 246, 0.1);
+            --brand-tint: rgba(139, 92, 246, 0.05);
+            --brand-line: rgba(139, 92, 246, 0.28);
+            --accent: #6366F1;
+            --accent-soft: rgba(99, 102, 241, 0.1);
+            --warm: #F59E0B;
+            --success: #10B981;
+            --bg-base: #FFFFFF;
+            --bg-surface: #FAFAFC;
+            --bg-soft: #F4F2FA;
+            --bg-row-alt: #FBFAFE;
+            --bg-card: #FFFFFF;
+            --border: #ECEAF5;
+            --border-strong: #D7D2EA;
+            --text: #1A1A2E;
+            --text-muted: #555573;
+            --text-dim: #8B8AA8;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Hiragino Kaku Gothic ProN', 'Yu Gothic', sans-serif;
+            color: var(--text);
+            background: var(--bg-base);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: inherit; text-decoration: none; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+
+        /* Buttons */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.7rem 1.6rem;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.92rem;
+            transition: all 0.2s;
+            white-space: nowrap;
+            border: 1.5px solid transparent;
+            cursor: pointer;
+        }
+        .btn-primary {
+            background: var(--text);
+            color: #FFFFFF;
+            border-color: var(--text);
+            box-shadow: 0 1px 2px rgba(26, 26, 46, 0.08);
+        }
+        .btn-primary:hover {
+            background: #2C2C44;
+            border-color: #2C2C44;
+            transform: translateY(-1px);
+            box-shadow:
+                0 6px 20px rgba(26, 26, 46, 0.18),
+                0 0 0 3px rgba(139, 92, 246, 0.3);
+        }
+        .btn-secondary {
+            background: var(--bg-base);
+            color: var(--text);
+            border-color: var(--border-strong);
+        }
+        .btn-secondary:hover {
+            border-color: var(--brand);
+            background: var(--brand-soft);
+            box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.15);
+        }
+        .btn-brand {
+            background: linear-gradient(135deg, var(--brand) 0%, var(--accent) 100%);
+            color: #FFFFFF;
+            border-color: transparent;
+            box-shadow: 0 4px 14px rgba(139, 92, 246, 0.3);
+        }
+        .btn-brand:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 24px rgba(139, 92, 246, 0.4);
+        }
+        .btn-ghost {
+            background: transparent;
+            color: var(--text-muted);
+            border-color: var(--border-strong);
+        }
+        .btn-ghost:hover {
+            color: var(--text);
+            border-color: var(--brand);
+            background: var(--brand-soft);
+        }
+        .btn-sm { padding: 0.55rem 1rem; font-size: 0.85rem; }
+
+        /* Nav */
+        .nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--border);
+        }
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 1.5rem;
+        }
+        .nav-logo {
+            display: inline-flex;
+            align-items: center;
+        }
+        .nav-logo img {
+            height: 28px;
+            width: auto;
+            display: block;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 1.75rem;
+            margin-left: auto;
+        }
+        .nav-links a {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            transition: color 0.2s;
+        }
+        .nav-links a:hover { color: var(--brand); }
+        .nav-links a.active { color: var(--brand); font-weight: 700; }
+        .nav-buttons { display: flex; gap: 0.6rem; }
+
+        /* Page Title — compact, no hero */
+        .page-title {
+            padding: 4rem 2rem 3rem;
+            text-align: center;
+            background:
+                radial-gradient(ellipse 70% 60% at 50% 0%, rgba(139, 92, 246, 0.16) 0%, transparent 75%),
+                linear-gradient(180deg, rgba(139, 92, 246, 0.06) 0%, rgba(139, 92, 246, 0.02) 100%);
+            border-bottom: 1px solid var(--border);
+        }
+        .page-title h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text);
+            letter-spacing: -0.02em;
+            margin-bottom: 0.6rem;
+        }
+        .page-title h1 .accent { color: var(--brand); }
+        .page-title .lead {
+            font-size: 1rem;
+            color: var(--text-muted);
+            max-width: 720px;
+            margin: 0 auto 1.5rem;
+        }
+        .badges {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.55rem;
+            max-width: 760px;
+            margin: 0 auto;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.4rem 0.85rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .badge.success {
+            background: rgba(16, 185, 129, 0.1);
+            color: #047857;
+            border: 1px solid rgba(16, 185, 129, 0.25);
+        }
+        .badge.brand {
+            background: var(--brand-soft);
+            color: var(--brand-darker);
+            border: 1px solid var(--brand-line);
+        }
+        .badge.warm {
+            background: rgba(245, 158, 11, 0.1);
+            color: #B45309;
+            border: 1px solid rgba(245, 158, 11, 0.25);
+        }
+        .badge svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 2.5; fill: none; }
+
+        /* Section base */
+        .section { padding: 5rem 2rem; }
+        .section-surface { background: var(--bg-surface); }
+        .section-title {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--text);
+            text-align: center;
+            margin-bottom: 0.85rem;
+            letter-spacing: -0.02em;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            max-width: 720px;
+            margin: 0 auto 3rem;
+            font-size: 0.95rem;
+        }
+
+        /* Pricing Composition (3 elements) */
+        .comp3 {
+            max-width: 1000px;
+            margin: 0 auto 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+        .comp3-row {
+            display: flex;
+            gap: 0.75rem;
+            align-items: stretch;
+        }
+        .comp3-row > .comp3-card { flex: 1; }
+        .comp3-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border);
+            border-radius: 16px;
+            padding: 1.75rem 1.5rem 1.5rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .comp3-card.tone-success {
+            border-color: var(--success);
+            background: linear-gradient(180deg, rgba(16, 185, 129, 0.06) 0%, #FFFFFF 75%);
+            box-shadow: 0 14px 36px rgba(16, 185, 129, 0.14);
+        }
+        .comp3-card.tone-brand {
+            border-color: #7C68FB;
+            background: linear-gradient(180deg, rgba(124, 104, 251, 0.06) 0%, #FFFFFF 75%);
+            box-shadow: 0 12px 32px rgba(124, 104, 251, 0.14);
+        }
+        .comp3-card.tone-accent {
+            border-color: #2563EB;
+            background: linear-gradient(180deg, #EFF6FF 0%, #FFFFFF 100%);
+            box-shadow: 0 12px 32px rgba(37, 99, 235, 0.12);
+        }
+        .comp3-card.tone-accent .comp3-tag {
+            background: rgba(37, 99, 235, 0.12);
+            color: #1D4ED8;
+        }
+        .comp3-card.tone-yellow {
+            border-color: #EAB308;
+            background: linear-gradient(180deg, #FFFBEB 0%, #FFFFFF 100%);
+            box-shadow: 0 12px 32px rgba(234, 179, 8, 0.12);
+        }
+        .comp3-card.tone-yellow .comp3-num { background: #EAB308; }
+        .comp3-card.tone-yellow .comp3-tag {
+            background: rgba(234, 179, 8, 0.14);
+            color: #854D0E;
+        }
+        .comp3-card-wide {
+            width: 100%;
+            text-align: left;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 1rem 1.5rem;
+            padding: 1.25rem 1.75rem;
+            align-items: center;
+        }
+        .comp3-num {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 24px;
+            height: 24px;
+            background: var(--text-dim);
+            color: #FFFFFF;
+            border-radius: 6px;
+            font-size: 0.72rem;
+            font-weight: 800;
+            margin: 0 auto 0.85rem;
+        }
+        .comp3-card.tone-success .comp3-num { background: var(--success); }
+        .comp3-card.tone-brand .comp3-num { background: #7C68FB; }
+        .comp3-card.tone-accent .comp3-num { background: #2563EB; }
+        .comp3-card-wide .comp3-num { margin: 0; }
+        .comp3-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            display: block;
+            letter-spacing: 0.05em;
+        }
+        .comp3-amount {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 0.5rem;
+            display: block;
+            line-height: 1.1;
+        }
+        .comp3-card.tone-success .comp3-amount {
+            color: var(--success);
+            font-size: 2.75rem;
+        }
+        .comp3-card.tone-brand .comp3-amount { color: var(--brand-darker); }
+        .comp3-tag {
+            display: inline-block;
+            font-size: 0.72rem;
+            font-weight: 600;
+            padding: 0.22rem 0.7rem;
+            border-radius: 999px;
+            background: var(--bg-soft);
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+        .comp3-card.tone-success .comp3-tag {
+            background: rgba(16, 185, 129, 0.12);
+            color: #047857;
+        }
+        .comp3-card-wide .comp3-label,
+        .comp3-card-wide .comp3-amount,
+        .comp3-card-wide .comp3-tag {
+            display: inline;
+            margin: 0 0.4rem 0 0;
+            vertical-align: middle;
+        }
+        .comp3-card-wide .comp3-amount { font-size: 1.5rem; font-weight: 700; }
+        .comp3-card-wide .comp3-head {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.4rem;
+            margin-bottom: 0.4rem;
+        }
+        .comp3-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-top: auto;
+        }
+        .comp3-card-wide .comp3-desc { margin-top: 0; grid-column: 2; }
+        .comp3-plus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-dim);
+            font-size: 1.4rem;
+            font-weight: 300;
+            padding: 0 0.25rem;
+        }
+        .comp-note {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #EFF6FF;
+            border-left: 3px solid #2563EB;
+            border-radius: 8px;
+            padding: 0.9rem 1.4rem;
+            font-size: 0.83rem;
+            color: #475569;
+            line-height: 1.65;
+        }
+        .comp-note strong { color: #1D4ED8; font-weight: 700; }
+
+        /* Plan Tier Cards (5 tiers) */
+        .tiers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            align-items: stretch;
+        }
+        .tier-card {
+            background: var(--bg-card);
+            border: 1.5px solid var(--border);
+            border-radius: 16px;
+            padding: 1.75rem 1.4rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: transform 0.25s, box-shadow 0.25s, border-color 0.25s;
+        }
+        .tier-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 32px rgba(139, 92, 246, 0.1);
+            border-color: var(--brand-line);
+        }
+        .tier-card.featured {
+            border: 2px solid var(--brand);
+            background: linear-gradient(180deg, rgba(139, 92, 246, 0.05) 0%, #FFFFFF 60%);
+            box-shadow: 0 18px 44px rgba(139, 92, 246, 0.18);
+            transform: scale(1.03);
+        }
+        .tier-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, var(--brand) 0%, var(--accent) 100%);
+            color: #FFFFFF;
+            padding: 0.3rem 0.85rem;
+            border-radius: 999px;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            box-shadow: 0 4px 14px rgba(139, 92, 246, 0.4);
+        }
+        .tier-name {
+            font-size: 1.05rem;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 0.35rem;
+        }
+        .tier-tagline {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 1.2rem;
+            line-height: 1.5;
+            min-height: 2.5em;
+        }
+        .tier-price {
+            font-size: 1.65rem;
+            font-weight: 800;
+            color: var(--text);
+            margin-bottom: 0.15rem;
+            line-height: 1.1;
+        }
+        .tier-card.featured .tier-price { color: var(--brand-darker); }
+        .tier-price small {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+        .tier-init {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: var(--success);
+            background: rgba(16, 185, 129, 0.1);
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+            margin: 0.5rem 0 1rem;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+        .tier-key {
+            background: var(--bg-soft);
+            border-radius: 8px;
+            padding: 0.7rem 0.85rem;
+            margin-bottom: 1rem;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+        .tier-key strong {
+            display: block;
+            color: var(--text);
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 0.15rem;
+        }
+        .tier-features {
+            list-style: none;
+            margin: 0 0 1.25rem;
+            padding: 0;
+            flex: 1;
+        }
+        .tier-features li {
+            font-size: 0.82rem;
+            padding: 0.32rem 0 0.32rem 1.4rem;
+            position: relative;
+            color: var(--text);
+            line-height: 1.5;
+        }
+        .tier-features li::before {
+            content: "✓";
+            position: absolute;
+            left: 0.2rem;
+            color: var(--brand);
+            font-weight: 800;
+            font-size: 0.85rem;
+        }
+        .tier-cta {
+            display: block;
+            text-align: center;
+            width: 100%;
+            margin-top: auto;
+        }
+
+        /* Comparison Table */
+        .compare-wrap {
+            max-width: 1200px;
+            margin: 0 auto;
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            background: var(--bg-card);
+        }
+        .compare {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 900px;
+        }
+        .compare thead th {
+            background: var(--bg-surface);
+            padding: 1.25rem 1rem;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--text);
+        }
+        .compare thead th:first-child {
+            text-align: left;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .compare thead th.featured {
+            background: linear-gradient(180deg, rgba(139, 92, 246, 0.1) 0%, var(--bg-surface) 100%);
+            border-top: 3px solid var(--brand);
+            padding-top: calc(1.25rem - 3px);
+            color: var(--brand-darker);
+        }
+        .compare tbody tr:nth-child(odd) td { background: var(--bg-row-alt); }
+        .compare tbody td {
+            padding: 0.85rem 1rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.85rem;
+            text-align: center;
+            color: var(--text-muted);
+        }
+        .compare tbody td:first-child {
+            text-align: left;
+            color: var(--text);
+            font-weight: 500;
+        }
+        .compare tbody td.featured {
+            background: rgba(139, 92, 246, 0.04) !important;
+            color: var(--text);
+        }
+        .compare .row-cat td {
+            background: var(--bg-soft) !important;
+            padding: 0.7rem 1rem;
+            font-size: 0.72rem;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        .check-yes { color: var(--brand); font-weight: 700; font-size: 1.05rem; }
+        .check-no { color: var(--text-dim); font-size: 0.9rem; }
+        .check-opt {
+            display: inline-block;
+            font-size: 0.7rem;
+            color: var(--warm);
+            background: rgba(245, 158, 11, 0.12);
+            padding: 0.15rem 0.55rem;
+            border-radius: 999px;
+            font-weight: 600;
+        }
+
+        /* Add-ons (catalog cards) */
+        .addons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .addon-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1.5rem 1.75rem;
+            transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            flex-direction: column;
+        }
+        .addon-card:hover {
+            border-color: var(--brand-line);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(139, 92, 246, 0.08);
+        }
+        .addon-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.85rem;
+        }
+        .addon-icon {
+            width: 38px;
+            height: 38px;
+            background: var(--brand-soft);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--brand);
+        }
+        .addon-icon svg { width: 18px; height: 18px; stroke: currentColor; stroke-width: 2; fill: none; }
+        .addon-badge {
+            font-size: 0.66rem;
+            font-weight: 700;
+            color: var(--text-muted);
+            background: var(--bg-soft);
+            padding: 0.25rem 0.6rem;
+            border-radius: 999px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+        .addon-card h4 {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.4rem;
+        }
+        .addon-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* Security & Support showcase */
+        .showcase-band { max-width: 1100px; margin: 0 auto 2rem; }
+        .showcase-band:last-child { margin-bottom: 0; }
+        .showcase-band.band-blue .showcase-icon {
+            background: #EFF6FF;
+            color: #2563EB;
+        }
+        .showcase-band.band-green .showcase-icon {
+            background: #F0FDF4;
+            color: #16A34A;
+        }
+        .showcase-band.band-blue .showcase-tag {
+            color: #0369A1;
+            background: rgba(56, 189, 248, 0.14);
+        }
+        .showcase-band.band-green .showcase-tag {
+            color: #15803D;
+            background: rgba(34, 197, 94, 0.14);
+        }
+        .showcase-tag {
+            display: inline-block;
+            font-size: 0.74rem;
+            font-weight: 700;
+            color: var(--brand);
+            background: var(--brand-soft);
+            padding: 0.35rem 0.95rem;
+            border-radius: 999px;
+            margin-bottom: 1.25rem;
+            letter-spacing: 0.06em;
+        }
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+        }
+        .showcase-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 1.5rem 1.25rem;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+        }
+        .showcase-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--brand-line);
+            box-shadow: 0 12px 28px rgba(139, 92, 246, 0.08);
+        }
+        .showcase-icon {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--brand-deep) 0%, var(--brand) 100%);
+            border-radius: 11px;
+            color: #FFFFFF;
+        }
+        .showcase-icon svg { width: 20px; height: 20px; stroke: currentColor; stroke-width: 2; fill: none; }
+        .showcase-card h5 {
+            font-size: 0.92rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.3rem;
+        }
+        .showcase-card p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        /* Timeline */
+        .timeline {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 0.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+        }
+        .timeline-step {
+            text-align: center;
+            position: relative;
+            padding: 0 0.5rem;
+        }
+        .timeline-step:not(:last-child)::after {
+            content: "";
+            position: absolute;
+            top: 14px;
+            right: -10%;
+            width: 20%;
+            height: 1px;
+            background: var(--border-strong);
+        }
+        .timeline-num {
+            display: inline-block;
+            margin: 0 auto 0.85rem;
+            background: var(--brand-soft);
+            color: var(--brand);
+            border: 1px solid var(--brand-line);
+            padding: 0.32rem 0.95rem;
+            border-radius: 999px;
+            font-weight: 700;
+            font-size: 0.78rem;
+            letter-spacing: 0.06em;
+            position: relative;
+            z-index: 1;
+        }
+        .timeline-num::before { content: "STEP "; opacity: 0.7; font-weight: 600; }
+        .timeline-step h4 {
+            font-size: 0.95rem;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 0.4rem;
+        }
+        .timeline-step p {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            line-height: 1.55;
+        }
+
+        /* Terms */
+        .terms-grid {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+        }
+        .term-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.4rem;
+        }
+        .term-card h4 {
+            font-size: 0.74rem;
+            font-weight: 700;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: 0.5rem;
+        }
+        .term-card p {
+            font-size: 0.92rem;
+            color: var(--text);
+            font-weight: 600;
+            line-height: 1.5;
+        }
+        .term-card p small {
+            display: block;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-weight: 400;
+            margin-top: 0.25rem;
+        }
+
+        /* FAQ */
+        .faq-list {
+            max-width: 820px;
+            margin: 0 auto;
+        }
+        .faq-list details {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.25rem 1.5rem;
+            margin-bottom: 0.7rem;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+        .faq-list details[open] {
+            border-color: var(--brand);
+            box-shadow: 0 8px 24px rgba(139, 92, 246, 0.08);
+        }
+        .faq-list summary {
+            font-weight: 700;
+            cursor: pointer;
+            color: var(--text);
+            list-style: none;
+            position: relative;
+            padding-right: 2rem;
+            font-size: 0.95rem;
+        }
+        .faq-list summary::-webkit-details-marker { display: none; }
+        .faq-list summary::after {
+            content: "+";
+            position: absolute;
+            right: 0;
+            top: -0.1rem;
+            font-size: 1.4rem;
+            font-weight: 300;
+            color: var(--brand);
+            transition: transform 0.25s;
+        }
+        .faq-list details[open] summary::after { transform: rotate(45deg); }
+        .faq-list p {
+            margin-top: 0.7rem;
+            color: var(--text-muted);
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+        /* CTA section — warm purple gradient */
+        .cta-section {
+            padding: 5rem 2rem;
+            text-align: center;
+            background:
+                radial-gradient(ellipse 55% 60% at 50% 50%, rgba(139, 92, 246, 0.22) 0%, transparent 75%),
+                linear-gradient(180deg, rgba(139, 92, 246, 0.08) 0%, rgba(245, 158, 11, 0.04) 100%);
+            border-top: 1px solid var(--border);
+        }
+        .cta-section h2 {
+            font-size: 1.85rem;
+            font-weight: 800;
+            margin-bottom: 0.85rem;
+            color: var(--text);
+        }
+        .cta-section p {
+            color: var(--text-muted);
+            margin-bottom: 1.75rem;
+            max-width: 880px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        .footer {
+            background: #1A1A2E;
+            color: rgba(255,255,255,0.7);
+            padding: 4rem 2rem 2rem;
+        }
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 3rem;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        .footer-brand {
+            margin-bottom: 1rem;
+        }
+        .footer-brand img {
+            height: 28px;
+            width: auto;
+            display: block;
+            filter: brightness(0) invert(1);
+        }
+        .footer-tagline {
+            font-size: 0.85rem;
+            line-height: 1.7;
+            margin-top: 0.25rem;
+        }
+        .footer-contact {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            line-height: 1.7;
+        }
+        .footer-contact strong { color: #FFFFFF; font-size: 1rem; }
+        .footer h4 {
+            font-size: 0.78rem;
+            font-weight: 700;
+            color: #FFFFFF;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+        }
+        .footer ul { list-style: none; }
+        .footer ul li { padding: 0.3rem 0; font-size: 0.85rem; }
+        .footer ul a:hover { color: var(--brand); }
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 2rem auto 0;
+            text-align: center;
+            font-size: 0.78rem;
+            color: rgba(255,255,255,0.4);
+        }
+
+        /* Responsive */
+        @media (max-width: 1100px) {
+            .tiers-grid { grid-template-columns: repeat(3, 1fr); }
+            .tier-card.featured { transform: none; }
+        }
+        @media (max-width: 980px) {
+            .comp3-row { flex-direction: column; }
+            .comp3-card-wide { grid-template-columns: 1fr; }
+            .comp3-card-wide .comp3-desc { grid-column: 1; }
+            .showcase-grid { grid-template-columns: repeat(2, 1fr); }
+            .timeline { grid-template-columns: 1fr; gap: 1.25rem; }
+            .timeline-step:not(:last-child)::after { display: none; }
+            .terms-grid { grid-template-columns: 1fr 1fr; }
+            .addons-grid { grid-template-columns: 1fr; }
+            .footer-content { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 720px) {
+            .tiers-grid { grid-template-columns: 1fr; max-width: 440px; }
+            .nav-links { display: none; }
+        }
+        @media (max-width: 640px) {
+            .page-title { padding: 3rem 1.25rem 2.5rem; }
+            .page-title h1 { font-size: 1.65rem; }
+            .section { padding: 3.5rem 1.25rem; }
+            .section-title { font-size: 1.5rem; }
+            .showcase-grid { grid-template-columns: 1fr; }
+            .terms-grid { grid-template-columns: 1fr; }
+            .footer-content { grid-template-columns: 1fr; gap: 2rem; }
+            .comp3-card.tone-success .comp3-amount { font-size: 2.25rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-container">
+        <a href="https://cs.gbase.ai/" class="nav-logo" aria-label="GBase Support">
+            <img src="https://cs.gbase.ai/title-logo.png" alt="GBase Support">
+        </a>
+        <ul class="nav-links">
+            <li><a href="https://cs.gbase.ai/">ホーム</a></li>
+            <li><a href="https://cs.gbase.ai/solutions">ソリューション</a></li>
+            <li><a href="https://cs.gbase.ai/products">製品 / 機能</a></li>
+            <li><a href="price" class="active">料金</a></li>
+            <li><a href="https://cs.gbase.ai/resources">リソース</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <a href="https://cs.gbase.ai/login" class="btn btn-secondary btn-sm">ログイン</a>
+            <a href="https://cs.gbase.ai/contact" class="btn btn-brand btn-sm">お問い合わせ</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Page Title (compact, no badges) -->
+<section class="page-title">
+    <h1>料金プラン</h1>
+    <p class="lead">
+        ビジネスの規模・利用範囲・連携要件に応じて、最適な構成と詳細なお見積もりをご提案します。
+    </p>
+</section>
+
+<!-- Pricing Composition -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">料金は3つの要素で構成</h2>
+        <p class="section-subtitle">
+            初期費用なし、月額ライセンスとオプションのみ。CAPEX 不要・社内予算稟議もスムーズに。
+        </p>
+        <div class="comp3">
+            <div class="comp3-row">
+                <div class="comp3-card tone-yellow">
+                    <span class="comp3-num">1</span>
+                    <span class="comp3-label">初期費用</span>
+                    <span class="comp3-tag">規模に応じて</span>
+                    <p class="comp3-desc">アカウント開設・初期セットアップ・標準データ取込・業務テンプレート構築を含みます。</p>
+                </div>
+                <div class="comp3-plus">＋</div>
+                <div class="comp3-card tone-brand">
+                    <span class="comp3-num">2</span>
+                    <span class="comp3-label">月額費用</span>
+                    <span class="comp3-tag">プランに応じて</span>
+                    <p class="comp3-desc">月間メッセージ数・接続データソース数・利用機能範囲に応じた月額ライセンス費。</p>
+                </div>
+            </div>
+            <div class="comp3-plus">＋</div>
+            <div class="comp3-card comp3-card-wide tone-accent">
+                <span class="comp3-num">3</span>
+                <div>
+                    <div class="comp3-head">
+                        <span class="comp3-label">オプション</span>
+                        <span class="comp3-tag">追加要件のみ</span>
+                    </div>
+                    <p class="comp3-desc">標準カタログ範囲を超える要件（カスタム連携・微調整・オンプレ・専任 CSM 等）のみ追加で選択可能。導入後の段階的追加にも柔軟に対応します。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Feature Introduction -->
+<section class="section section-surface">
+    <div class="container">
+        <h2 class="section-title">GBase Support でできること</h2>
+        <p class="section-subtitle">
+            自社データを学習し、ウェブ・社内・LINE・店舗まで横断して問い合わせ対応を自動化。すべてのプランで以下の中核機能をご利用いただけます。
+        </p>
+
+        <div class="showcase-band">
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h5>RAG チャットボット</h5>
+                    <p>自社ドキュメント・FAQ・ウェブサイトから高精度な応答を生成。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </div>
+                    <h5>AI コンシェルジュ</h5>
+                    <p>自然対話での案内・推薦・在庫照会など、接客 AI として活用。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+                    </div>
+                    <h5>音声対話</h5>
+                    <p>WebSocket リアルタイム双方向音声で、AI 機能を音声で操作可能。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                    <h5>多言語対応</h5>
+                    <p>日・英・中・韓を含む 10+ 言語に対応。インバウンド・海外拠点に。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h5>マルチチャネル連携</h5>
+                    <p>LINE / Microsoft Teams / WhatsApp / Web ウィジェット 一括展開。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h5>MCP 連携</h5>
+                    <p>Model Context Protocol で外部システム・API・カスタム業務に統合。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/></svg>
+                    </div>
+                    <h5>Digital Human</h5>
+                    <p>2D アバター + 音声合成によるバーチャル接客。コスト 80-95% 削減。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                    </div>
+                    <h5>解決率分析</h5>
+                    <p>解決率・知識盲区・利用傾向を可視化、改善サイクルを継続的に回せる。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add-ons -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">追加オプション</h2>
+        <p class="section-subtitle">
+            標準プラン外の要件はオプションで柔軟に追加。導入後の段階的な拡張にも対応します。
+        </p>
+        <div class="addons-grid">
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                </div>
+                <h4>微調整サービス</h4>
+                <p>業界・業務特有の専門用語や応答スタイルに合わせた、応答モデルの追加チューニング。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                    </div>
+                </div>
+                <h4>オンプレミス導入</h4>
+                <p>機密性が高い業務向けに、貴社データセンターでの専用環境構築。Docker / K8s 対応。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                    </div>
+                </div>
+                <h4>カスタム連携開発</h4>
+                <p>標準カタログにない社内システム・基幹業務システムへの専用コネクタ開発。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                </div>
+                <h4>多言語対応強化</h4>
+                <p>10+ 言語対応に加え、特定方言・専門用語辞書の追加。インバウンド対応に。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                    </div>
+                </div>
+                <h4>専任 CSM</h4>
+                <p>業務に伴走する専任カスタマーサクセスが定例レビュー・活用度分析・改善提案を継続実施。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                </div>
+                <h4>セキュリティ監査対応</h4>
+                <p>第三者監査・脆弱性診断・コンプライアンス文書（ISO / SOC2 等）の提供。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                    </div>
+                </div>
+                <h4>Digital Human（Live2D）</h4>
+                <p>2D アバター + 音声合成によるバーチャル接客。コスト 80-95% 削減を実現。</p>
+            </div>
+            <div class="addon-card">
+                <div class="addon-head">
+                    <div class="addon-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                </div>
+                <h4>大規模データ移行</h4>
+                <p>既存ナレッジベース・FAQ集・社内 Wiki からの一括取込・クレンジング支援。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Security & Support -->
+<section class="section section-surface">
+    <div class="container">
+        <h2 class="section-title">セキュリティ & サポート体制</h2>
+        <p class="section-subtitle">
+            国内 DC 運用・暗号化基盤と、お客様の活用を継続的に支える運用サポート体制。
+        </p>
+
+        <!-- セキュリティ -->
+        <div class="showcase-band band-blue">
+            <span class="showcase-tag">セキュリティ</span>
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                    </div>
+                    <h5>ロール別アクセス制御</h5>
+                    <p>RBAC で部署・役職に応じた権限を細かく管理。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+                    </div>
+                    <h5>国内データセンター</h5>
+                    <p>日本国内の認証取得済 DC で運用、監査対応も万全。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+                    </div>
+                    <h5>データ暗号化</h5>
+                    <p>保管時・通信時ともに暗号化された安全な基盤。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    </div>
+                    <h5>仕様書・規約</h5>
+                    <p>セキュリティ仕様書・規約を提供。稟議もスムーズ。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- サポート -->
+        <div class="showcase-band band-green">
+            <span class="showcase-tag">サポート・運用</span>
+            <div class="showcase-grid">
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1v-7h3zM3 19a2 2 0 0 0 2 2h1v-7H3z"/></svg>
+                    </div>
+                    <h5>標準サポート</h5>
+                    <p>業務時間内のメール・チャット対応。エンタープライズは 24/7。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+                    </div>
+                    <h5>常時アップデート</h5>
+                    <p>新機能・改善は追加費用なしで自動配信。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </div>
+                    <h5>ヘルプセンター</h5>
+                    <p>使い方ガイド・API ドキュメント・動画を提供。</p>
+                </div>
+                <div class="showcase-card">
+                    <div class="showcase-icon">
+                        <svg viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/><line x1="6" y1="8" x2="10" y2="8"/><line x1="6" y1="12" x2="14" y2="12"/></svg>
+                    </div>
+                    <h5>解決率レポート</h5>
+                    <p>問い合わせ解決率・知識盲区を可視化、改善サイクルを回せる。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Implementation Flow -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">最短 1 週間で本番稼働</h2>
+        <p class="section-subtitle">
+            お問い合わせから本番運用まで、Sparticle のカスタマーサクセスチームが伴走支援します。
+        </p>
+        <div class="timeline">
+            <div class="timeline-step">
+                <div class="timeline-num">1</div>
+                <h4>お問い合わせ</h4>
+                <p>フォーム・電話・メールより、業務要件・規模感をお伝えください。</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-num">2</div>
+                <h4>ヒアリング・見積</h4>
+                <p>規模感・接続範囲を確認し、最適プランと詳細見積をご提示します。</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-num">3</div>
+                <h4>ナレッジ取込</h4>
+                <p>FAQ・社内文書・ウェブサイトを学習データとして取込み、応答モデル構築。</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-num">4</div>
+                <h4>テスト・調整</h4>
+                <p>少人数で実業務テスト、応答品質を確認・チューニングします。</p>
+            </div>
+            <div class="timeline-step">
+                <div class="timeline-num">5</div>
+                <h4>本番運用</h4>
+                <p>ウィジェット / LINE / Teams 等への展開、継続的な活用支援。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- FAQ -->
+<section class="section section-surface">
+    <div class="container">
+        <h2 class="section-title">料金・契約についてよくあるご質問</h2>
+        <p class="section-subtitle">よくいただくご質問にお答えします。さらに詳しい内容はお気軽にお問い合わせください。</p>
+        <div class="faq-list">
+            <details>
+                <summary>初期費用の目安はどれくらいですか？</summary>
+                <p>規模・接続データソース数・カスタマイズ範囲により変動します。アカウント開設・初期セットアップ・標準データ取込・基本トレーニングを含みます。業界特有のシステム連携や大量データ移行が発生する場合は別途追加費用が発生します。ヒアリング後に詳細な内訳を含むお見積もりを提示いたします。</p>
+            </details>
+            <details>
+                <summary>月間メッセージ数を超えるとどうなりますか？</summary>
+                <p>月間メッセージ数の上限を超えた場合、月内は応答が一時的に制限されることがあります。継続的にご利用が増えている場合は、上位プランへのアップグレードをお勧めします。プラン変更は管理画面から即時反映可能です。</p>
+            </details>
+            <details>
+                <summary>どのプランから始めるのが適切ですか？</summary>
+                <p>スタッフ規模・想定される月間問い合わせ件数・接続したいデータソースをお伺いし、最適な構成をご提案します。利用量が増えた際は管理画面から上位構成へのアップグレードもスムーズに対応可能です。</p>
+            </details>
+            <details>
+                <summary>請求書払い・法人カードは利用できますか？</summary>
+                <p>どちらも対応しています。クレジットカード払い、銀行振込（請求書払い）から選択可能で、年次一括払いをご選択いただく場合は別途割引のご相談も承ります。</p>
+            </details>
+            <details>
+                <summary>解約は簡単ですか？最低契約期間はありますか？</summary>
+                <p>標準プランは月次契約で、最低契約期間の縛りはありません。管理画面から即時に解約手続きが可能で、違約金・解約手数料は発生しません。エンタープライズプランはご利用条件に応じて別途契約期間を定めます。</p>
+            </details>
+            <details>
+                <summary>導入後にプランをアップグレード／ダウングレードできますか？</summary>
+                <p>はい、いつでも変更可能です。利用規模・必要機能に応じて柔軟にアップグレード／ダウングレードに対応しており、お問い合わせいただければ翌月から新しい構成で利用できます。</p>
+            </details>
+            <details>
+                <summary>セキュリティ・データ保管場所は？</summary>
+                <p>日本国内の認証取得済データセンターで運用しており、保管時・通信時ともにデータを暗号化しています。エンタープライズプランでは専用テナント・オンプレミス導入オプションも提供します。詳細なセキュリティ仕様書・コンプライアンス文書は別途お渡し可能です。</p>
+            </details>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+    <h2>貴社に最適なプランをご提案します</h2>
+    <p>ビジネス規模・利用範囲・連携要件をお伺いし、最適な構成と詳細なお見積もりをご返答します。<br>お気軽にお問い合わせください。</p>
+    <a href="https://cs.gbase.ai/contact" class="btn btn-brand">お問い合わせ</a>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div>
+            <div class="footer-brand">
+                <img src="https://cs.gbase.ai/title-logo.png" alt="GBase Support">
+            </div>
+            <p class="footer-tagline">GBase Makes You Genius — できるを授ける<br>自社データで応答モデルを構築する AI カスタマーサポート</p>
+            <div class="footer-contact">
+                <strong>03-3527-2828</strong><br>
+                受付時間: 平日 10:00〜18:00
+            </div>
+        </div>
+        <div>
+            <h4>製品</h4>
+            <ul>
+                <li><a href="https://cs.gbase.ai/products">製品 / 機能</a></li>
+                <li><a href="https://cs.gbase.ai/solutions">ソリューション</a></li>
+                <li><a href="price">料金</a></li>
+                <li><a href="price#implementation">導入の流れ</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>リソース</h4>
+            <ul>
+                <li><a href="https://cs.gbase.ai/blog">ブログ</a></li>
+                <li><a href="https://cs.gbase.ai/docs">ドキュメント</a></li>
+                <li><a href="https://cs.gbase.ai/customers">導入事例</a></li>
+                <li><a href="https://cs.gbase.ai/security">セキュリティ</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>会社情報</h4>
+            <ul>
+                <li><a href="https://sparticle.com">運営会社</a></li>
+                <li><a href="https://cs.gbase.ai/contact">お問い合わせ</a></li>
+                <li><a href="https://cs.gbase.ai/privacy">プライバシー</a></li>
+                <li><a href="https://cs.gbase.ai/terms">利用規約</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        © 2026 Sparticle Inc. All rights reserved.
+    </div>
+</footer>
+
+</body>
+</html>
